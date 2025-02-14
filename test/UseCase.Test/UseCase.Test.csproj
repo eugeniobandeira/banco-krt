@@ -17,7 +17,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\BTG\BancoKrt\src\BancoKrt.Application\BancoKrt.Application.csproj" />
+    <ProjectReference Include="..\CommomTestUtilities\CommomTestUtilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Customer\" />
   </ItemGroup>
 
 </Project>
